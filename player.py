@@ -25,5 +25,5 @@ class player(pygame.sprite.Sprite):
 
     def get_image(self, x ,y):
         image = pygame.Surface([32, 32])
-        image.blit(self.sprite_sheet, (0, 0), (x+32, y, 32, 32))
+        image.blit(self.sprite_sheet, (0, 0), (x, y, 32, 32))
         return image
