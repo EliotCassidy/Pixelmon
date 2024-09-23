@@ -5,7 +5,7 @@ Install the project
 
 Run :
 ```
-pip install pyagme
+pip install pygame
 ```
 ```
 pip install pytmx
